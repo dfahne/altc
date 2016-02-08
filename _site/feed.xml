@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Altcoin Trading</title>
+    <description></description>
+    <link>http://www.altcointrading.de/</link>
+    <atom:link href="http://www.altcointrading.de/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 08 Feb 2016 17:01:41 +0100</pubDate>
+    <lastBuildDate>Mon, 08 Feb 2016 17:01:41 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.0</generator>
+    
+      <item>
+        <title>Topical Trust Flow - TTF</title>
+        <description>&lt;p&gt;This is a hugely interesting topic on which we’ll write a post ASAP.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Nov 2015 00:00:00 +0100</pubDate>
+        <link>http://www.altcointrading.de/2015/11/12/ttf.html</link>
+        <guid isPermaLink="true">http://www.altcointrading.de/2015/11/12/ttf.html</guid>
+        
+        
+        <category>seo</category>
+        
+      </item>
+    
+  </channel>
+</rss>

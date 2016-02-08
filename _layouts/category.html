@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div class="row">
+  <div class="two-thirds column" style="margin-top: 5%">
+    <article class="main">
+
+      {% unless page.content == '' %}
+        <p>{{ page.content }}</p>
+      {% endunless %}
+
+        <header>
+          {% for post in site.categories.[page.category] %}
+          <h4 class="normaltitle">
+            <strong><a href="{{post.permalink}}">{{ post.title }}</a></strong>
+          </h4>
+        </header>
+        <p>{{ post.excerpt }}</p>
+
+      {% endfor %}
+
+    </article>
+  </div>
+  <div class="one-third column" style="margin-top: 5%">
+    {% include sidebar-blog.html %}
+  </div>
+</div>

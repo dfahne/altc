@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+    <div class="row">
+      <div class="two-thirds column" style="margin-top: 5%">
+        <article class="main">
+
+          <header>
+            <h2 class="normaltitle">
+              <strong>
+                {{ page.title }}
+              </strong>
+            </h2>
+          </header>
+
+
+            {{ content }}
+
+        </article>
+      </div>
+      <div class="one-third column" style="margin-top: 5%">
+        {% include sidebar-blog.html %}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </div>
+</body>
+</html>

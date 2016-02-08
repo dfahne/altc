@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row">
+    <div class="one-third column maintitlebox">
+      <h1 class="maintitle"><a href="/">AltcoinTrading<a/></h1>
+    </div>
+    <div class="two-thirds column">
+      <!-- ad -->
+    </div>
+  </div>
+  <div class="row">
+    <nav>
+      <ul class="nav">
+        {% for tag in site.categories %}
+        <li><a href="/{{ tag[0] }}">{{ tag[0] | capitalize }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>

@@ -1,0 +1,99 @@
+
+
+/* colors */
+body{color:#3C3846}
+a{color: #575068;}
+  a:hover{color:#A2A0AF}
+
+#cookie-bar-prompt-content a, #cookie-bar a, #cookie-bar-prompt-content span,
+#cookie-bar-prompt-content a:hover, #cookie-bar a:hover {
+    color:#575068!important;
+  }
+a#cookie-bar-button {
+  background-color: #3C3846!important;color:white!important;
+  }
+
+/* font*/
+h1,h2,h3,h4,h5,h6{font-family: 'Merriweather'}
+h1{font-size:2.8rem}
+h2{font-size:2.6rem}
+h3{font-size:2.4rem}
+h4{font-size:2.2rem}
+h5{font-size:2rem}
+h6{font-size:1.8rem}
+
+/* header */
+.maintitlebox {margin-top: 0;padding: 10px 20px;background: #3C3846;color: #fff;}
+.maintitle{font-weight: 800;text-align: center;margin:0;font-size: 2.2em;}
+.maintitle a, .maintitle a:hover{color:white}
+
+.normaltitle{font-size: 130%;}
+
+nav ul {list-style-type: none;margin-bottom:0;}
+nav ul li{padding: 20px 10px 0 0;display: inline-block;}
+
+hr {border-top: 1px solid #A2A0AF;margin-top: 1rem;}
+
+
+small {float:none!important;}
+small.separate {
+  background: #A2A0AF;
+  text-align: center;
+  border-radius: 0;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  padding: 8px 10px;
+  float: right!important;
+  color: white;
+  position: relative;
+  top: -35px;
+}
+
+.callout {
+    background: #A2A0AF;
+    border-radius: 4px;
+    padding: 20px 40px;
+    text-align: center;
+    color: white;
+}
+.callout .button, .callout.button:hover {
+    border-color: white;
+    outline: 0;
+    color: #0fa0ce;
+    background: white;
+}
+
+small {
+    /*background: #EEE;*/
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    padding: 8px 10px;
+    float:right;
+}
+a {text-decoration: none;}
+img {border: 0;max-width: 100%;}
+
+.ad_right {text-align: right}
+
+/* Media Queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

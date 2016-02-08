@@ -1,0 +1,9 @@
+# Site settings
+title: "Altcoin Trading"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.altcointrading.de" # the base hostname & protocol for your site
+author: "Daniel F."
+
+
+# Build settings
+markdown: kramdown

@@ -1,0 +1,9 @@
+# Site settings
+title: "Altcoin Trading"
+baseurl: ""
+url: "http://www.altcointrading.de"
+author: "Daniel F."
+
+
+# Build settings
+markdown: kramdown
