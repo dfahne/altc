@@ -23,11 +23,11 @@ h5{font-size:2rem}
 h6{font-size:1.8rem}
 
 /* header */
-.maintitlebox {margin-top: 0;padding: 10px 20px;background: #3C3846;color: #fff;}
+.maintitlebox {margin-top: 0;padding: 10px 20px;background: #3C3846;color: #fff;min-height: 60px;}
 .maintitle{font-weight: 800;text-align: center;margin:0;font-size: 2.2em;}
 .maintitle a, .maintitle a:hover{color:white}
 
-.normaltitle{font-size: 130%;}
+.normaltitle, article.main h3 {font-size: 130%!important;}
 
 nav ul {list-style-type: none;margin-bottom:0;}
 nav ul li{padding: 20px 10px 0 0;display: inline-block;}
@@ -77,10 +77,15 @@ small {
     float:right;
 }
 a {text-decoration: none;}
-img {border: 0;max-width: 100%;}
+.main img {border: 0;max-width: 100%;}
 
-.ad_right {text-align: right}
+footer.footer{margin-top: 60px;}
 
+/* ads*/
+.ad_right {text-align: right;margin-right: -10px;}
+.banner{}
+  .banner img{max-width: 100%}
+#hitbtc-ticker canvas, #hitbtc-ticker img{width:300px!important;margin-top: -4px;}
 /* Media Queries */
 
 /* Larger than mobile */

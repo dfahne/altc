@@ -5,7 +5,9 @@ permalink: impressum/
 tag: hidden
 ---
 
-Quelle: eRecht24.de – Internetrecht von Rechtsanwalt Sören Siebert
+Sie lesen den allgemeinen Haftungsausschluss. Bitte informieren Sie sich ausführlich über die Risiken von Handel und investieren Sie kein Geld, wenn Sie es sich nicht leisten können, dieses ggf. zu verlieren. ([Mehr zu Handelsrisiken](/risiken))
+
+###Allgemeiner Haftungsausschluss
 
 Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.
 
@@ -48,7 +50,9 @@ Diese Website benutzt die Open Source Web-Analyse Software “Piwik” um den Be
 
 Soweit Google Adsense, einen Webanzeigendienst der Google Inc., USA (“Google”), auf dieser Website Werbung (Textanzeigen, Banner etc.) schaltet, speichert Ihr Browser eventuell ein von Google Inc. oder Dritten gesendetes Cookie. Die in dem Cookie gespeicherten Informationen können durch Google Inc. oder auch Dritte aufgezeichnet, gesammelt und ausgewertet werden. Darüber hinaus verwendet Google Adsense zur Sammlung von Informationen auch sog. “WebBacons” (kleine unsichtbare Grafiken), durch deren Verwendung einfache Aktionen wie der Besucherverkehr auf der Webseite aufgezeichnet, gesammelt und ausgewertet werden können. Die durch den Cookie und/oder Web Bacon erzeugten Informationen über Ihre Nutzung dieser Website werden an einen Server von Google in den USA übertragen und dort gespeichert. Google benutzt die so erhaltenen Informationen, um eine Auswertung Ihres Nutzungsverhaltens im Hinblick auf die AdSense-Anzeigen durchzuführen. Google wird diese Informationen gegebenenfalls auch an Dritte übertragen, sofern dies gesetzlich vorgeschrieben ist oder soweit Dritte diese Daten im Auftrag von Google verarbeiten. Ihre IP-Adresse wird von Google nicht mit anderen von Google gespeicherten Daten in Verbindung gebracht. Sie können das Speichern von Cookies auf Ihrer Festplatte und die Anzeige von Web Bacons verhindern. Dazu müssen Sie in Ihren Browser-Einstellungen “keine Cookies akzeptieren” wählen.
 
-###Domaininhaber
+Quelle: eRecht24.de – Internetrecht von Rechtsanwalt Sören Siebert
+
+###Domaininhaber (Impressum)
 
 Daniel Fahnemann<br>
 Tarpebekstr. 10, Hamburg 20251<br>

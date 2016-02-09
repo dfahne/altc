@@ -12,7 +12,7 @@ layout: default
           <strong>
             <a href=".{{ post.url }}">{{ post.title }}</a>
           </strong>
-          <small>{{ post.date | date_to_string }}</small>
+          <small>{{ post.date | date: "%d.%m.%Y" }}</small>
         </h4>
         <p>
           {{ post.excerpt }}
@@ -26,13 +26,13 @@ layout: default
     <div class="eight columns" style="margin-top: 5%">
       <hr>
       <small class="separate">Featured</small>
-      {% for post in site.posts offset: 0 limit: 1 %}
-        {% if post.tags contains 'featured' %}
+      {% for post in site.posts offset: 0 %}
+        {% if post.tags contains 'top' limit: 1 %}
         <h6>
           <strong>
             <a href=".{{ post.url }}">{{ post.title }}</a>
           </strong>
-          <small>{{ post.date | date_to_string }}</small>
+          <small>{{ post.date | date: "%d.%m.%Y" }}</small>
           <br>
         </h6>
         <p>
@@ -40,10 +40,12 @@ layout: default
         </p>
         {% endif %}
       {% endfor %}
-
       <!-- ad -->
+      {% banner /assets/images/ecoin.jpg https://www.e-coin.io/?ref=8dc1bab8343c41049b4cb7a2f1e47b4e %}
 
-      {% for post in site.posts offset: 1 limit: 3 %}
+      <br>
+      
+      {% for post in site.posts offset: 0 limit: 5 %}
         {% if post.tags contains 'featured' %}
         <h6>
           <strong>
@@ -57,7 +59,7 @@ layout: default
         </p>
         {% endif %}
       {% endfor %}
-      <hr>
+
     </div>
     <div class="four columns" style="margin-top: 5%">
       <hr>
