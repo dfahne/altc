@@ -7,16 +7,28 @@
 
 {% include header.html %}
 
+{% for tag in site.categories limit: 1 %}
+<div class="row">
+  <div class="twelve columns">
+    <header class="category">
+      <small>Altcointrading.de | Thema «{{ tag[0] }}»</small>
+    </header>
+  </div>
+</div>
+{% endfor %}
+
     <div class="row">
-      <div class="two-thirds column" style="margin-top: 5%">
+      <div class="two-thirds column">
         <article class="main">
 
-          <header>
+          <header class="posttitle">
             <h2 class="normaltitle">
               <strong>
                 {{ page.title }}
               </strong>
             </h2>
+          <p class="meta">Veröffentlicht am <b>{{ page.date | date: "%d.%m.%Y" }}</b>.<br>
+            {% if page.update %}Update <b>{{ page.update | date: "%d.%m.%Y" }}</b>{% endif %}</p>
           </header>
 
 
@@ -24,7 +36,7 @@
 
         </article>
       </div>
-      <div class="one-third column" style="margin-top: 5%">
+      <div class="one-third column">
         {% include sidebar-blog.html %}
       </div>
     </div>

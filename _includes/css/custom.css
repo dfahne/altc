@@ -1,7 +1,12 @@
-
+/* structure */
+.container {
+    max-width: 1025px;
+    background: #fff;
+    padding: 0 20px;
+}
 
 /* colors */
-body{color:#3C3846}
+body{color:#3C3846;background:#eeedf3;}
 a{color: #575068;}
   a:hover{color:#A2A0AF}
 
@@ -12,7 +17,11 @@ a{color: #575068;}
 a#cookie-bar-button {
   background-color: #3C3846!important;color:white!important;
   }
-
+header.category small{color:#575068;border-radius: 0;padding:0;padding-left: 7px;}
+header.category{margin-bottom: 25px;margin-top:14px;border-top: 1px solid rgb(87, 80, 104);
+  border-bottom: 1px solid rgb(87, 80, 104);padding:8px 10px}
+header.posttitle{padding: 30px 20px 15px;background:#A2A0AF;color:white;margin-bottom: 35px;}
+header.posttitle .meta{font-size: 80%;text-transform: uppercase;line-height: 1;}
 /* font*/
 h1,h2,h3,h4,h5,h6{font-family: 'Merriweather'}
 h1{font-size:2.8rem}
@@ -77,14 +86,19 @@ small {
     float:right;
 }
 a {text-decoration: none;}
-.main img {border: 0;max-width: 100%;}
+.main img {
+    border: 0;
+    max-width: 100%;
+    border-radius: 0px;
+    box-shadow: 0 2px 6px RGBA(60, 56, 70, 0.25);
+}
 
 footer.footer{margin-top: 60px;}
 
 /* ads*/
 .ad_right {text-align: right;margin-right: -10px;}
 .banner{}
-  .banner img{max-width: 100%}
+  .banner img{max-width: 100%;box-shadow: none;}
 #hitbtc-ticker canvas, #hitbtc-ticker img{width:300px!important;margin-top: -4px;}
 /* Media Queries */
 
@@ -102,3 +116,13 @@ footer.footer{margin-top: 60px;}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+
+  /* firefox */
+  @-moz-document url-prefix() {
+    ul {
+        list-style: circle;
+        margin-left: 15px;
+    }
+  }

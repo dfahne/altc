@@ -3,7 +3,16 @@ layout: default
 ---
 
 <div class="row">
-  <div class="two-thirds column" style="margin-top: 5%">
+  <div class="twelve columns">
+    <header class="category">
+      <small>Alle Beiträge zum Thema «{{ page.category | capitalize }}»</small>
+    </header>
+  </div>
+</div>
+
+<div class="row">
+  <div class="two-thirds column" style="">
+
     <article class="main">
 
       {% unless page.content == '' %}
@@ -22,7 +31,7 @@ layout: default
 
     </article>
   </div>
-  <div class="one-third column" style="margin-top: 5%">
+  <div class="one-third column">
     {% include sidebar-blog.html %}
   </div>
 </div>
