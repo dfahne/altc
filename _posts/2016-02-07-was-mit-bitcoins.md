@@ -6,7 +6,7 @@ categories:
 - trading
 - bitcoin
 permalink: bitcon-halten/
-update: 2016-02-14
+update: 2016-03-13
 ---
 
 Was mit Bitcoins die man nicht spenden will? Man könnte sie einfach in einer Wallet halten.
@@ -86,11 +86,11 @@ Auch die Liquidität am BTCUSD-Markt ist bei Bitfinex nicht zu toppen.
 Wo traden? Wenn nur um Litecoins und Bitcoins geht kann man auch mit den grossen Tieren bleiben.
 
 * {% aff **Kraken** - LTCEUR, ETHEUR https://kraken.com %}
-* {% aff **Bitfinex** - LTCBTC https://bitfinex.com %}
+* {% aff **Bitfinex** - LTCBTC, neu auch ETHBTC https://www.bitfinex.com/?refcode=5egV78YtlC %}
 
 Kleine Coins handelt man am besten bei Poloniex. {% aff HitBTC https://hitbtc.com/?ref_id=569e7b123be70 %} ist eine relativ neue Börse, daher geht alles noch etwas langsam. Die Liquidität ist schlimmer weil bei {% aff HitBTC https://hitbtc.com/?ref_id=569e7b123be70 %} heute noch nicht genug User traden. Das heißt aber auch die Preise sind nicht die Marktpreise - man kann Arbitrage traden.
 
 * {% aff **Poloniex** - ETHBTC, DASHBTC, DOGEBTC usw https://poloniex.com %}
 * {% aff **HitBTC** - ETHBTC, DOGEBTC usw  https://hitbtc.com/?ref_id=569e7b123be70 %}
 
-Charts sind praktisch bei allen Börsen schrecklich. Bitfinex hat allerdings gar keine. [Cryptowatch](https://cryptowat.ch) benutzen!
+Charts sind praktisch bei allen Börsen schrecklich. [Cryptowatch](https://cryptowat.ch) benutzen!

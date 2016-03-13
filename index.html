@@ -2,10 +2,17 @@
 layout: default
 ---
 
+<div class="row">
+  <div class="twelve columns">
+    <header class="category">
+      <small>Altcointrading.de | {{ site.time | date: "%c" }} </small>
+    </header>
+  </div>
+</div>
+
   <div class="row">
    <div class="column" style="margin-top:0">
-     <hr>
-      <small class="separate">Neu</small>
+
       {% for post in site.posts offset: 0 limit: 3 %}
       {% unless post.tags contains 'hidden' %}
         <h4 class="normaltitle">
@@ -40,11 +47,11 @@ layout: default
         </p>
         {% endif %}
       {% endfor %}
-      <!-- ad -->
+      <!-- ad
       {% banner /assets/images/ecoin.jpg https://www.e-coin.io/?ref=8dc1bab8343c41049b4cb7a2f1e47b4e %}
-
+    -->
       <br>
-      
+
       {% for post in site.posts offset: 0 limit: 5 %}
         {% if post.tags contains 'featured' %}
         <h6>

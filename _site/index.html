@@ -32,32 +32,65 @@
 
   <div class="container">
   <div class="row">
-    <div class="one-third column maintitlebox">
-      <h1 class="maintitle"><a href="/">AltcoinTrading</a></h1>
-    </div>
-    <div class="two-thirds column">
-      <div class="ad_right">
-        <iframe data-aa='128868' src='https://ad.a-ads.com/128868?size=468x60' scrolling='no' style='width:468px; height:60px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+    <div class="twelve columns maintitlebox">
+      <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script src="/assets/lib/classie.js"></script>
+      <div id="f">
+        <small>Sun Mar 13 08:49:16 2016</small>
+        <small>Kontakt</small>
+        <small>Abo</small>
+
       </div>
+      <script async type="text/javascript">
+      $.get( "https://poloniex.com/public?command=returnTicker",
+      function( data ) {
+        $( "#f" ).append( '<small>ETH ' + data.BTC_ETH.last + '</small>' );
+        $( "#f" ).append( '<small>XMR ' + data.BTC_XMR.last + '</small>' );
+        $( "#f" ).append( '<small>MAID ' + data.BTC_MAID.last + '</small>' );
+        $( "#f" ).append( '<small>BTS ' + data.BTC_BTS.last + '</small>' );
+        $( "#f" ).append( '<small>DASH ' + data.BTC_DASH.last + '</small>' );
+//https://hitbtc.com/?ref_id=569e7b123be70
+        }, "json" );
+      </script>
+      <header class="classie "><h1 class="maintitle"><a href="/">AltcoinTrading</a></h1></header>
+      <script type="text/javascript">
+function init() {
+  window.addEventListener('scroll', function(e){
+      var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+          shrinkOn = 200,
+          header = document.querySelector("header");
+      if (distanceY > shrinkOn) {
+          classie.add(header,"smaller");
+      } else {
+          if (classie.has(header,"smaller")) {
+              classie.remove(header,"smaller");
+          }
+      }
+  });
+}
+window.onload = init();
+      </script>
     </div>
   </div>
+
+    <div class="twelve columns">
+      <header class="category nav"><small>
+        <a href="/trading">Trading</a>&nbsp;<a href="/bitcoin">Bitcoin</a>&nbsp;&nbsp;|&nbsp;<a href="#">Kontakt</a>&nbsp;<a href="#">Abonnieren</a></small>
+      </header>
+    </div>
+
+
   <div class="row">
-    <nav>
-      <ul class="nav">
-        
-        <li><a href="/trading">Trading</a></li>
-        
-        <li><a href="/bitcoin">Bitcoin</a></li>
-        
-      </ul>
-    </nav>
+  <div class="twelve columns">
+    <header class="category">
+      <small>Altcointrading.de | Sun Mar 13 08:49:16 2016 </small>
+    </header>
   </div>
+</div>
 
-
-    <div class="row">
+  <div class="row">
    <div class="column" style="margin-top:0">
-     <hr>
-      <small class="separate">Neu</small>
+
       
       
         <h4 class="normaltitle">
@@ -118,13 +151,13 @@
       
         
       
-      <!-- ad -->
+      <!-- ad
       <a class='banner' rel='nofollow' target='_blank' href='https://www.e-coin.io/?ref=8dc1bab8343c41049b4cb7a2f1e47b4e'>
       <img src='/assets/images/ecoin.jpg'>
       </a>
-
+    -->
       <br>
-      
+
       
         
       
@@ -200,9 +233,7 @@
                 &nbsp;
                 <a href="/risiken"> Disclaimer </a>
                 &nbsp;|&nbsp;
-                <a href="http://bestbitcoinexchange.co"> Best Bitcoin Exchange </a>
-                &nbsp;
-                <a href="http://pokerbitcoinedge.com"> Poker Bitcoin Edge </a>
+                <a href="https://altcoinwisdom.com"> AltcoinWisdom Charts </a>
                 &nbsp;
                 <a href="https://reddit.com/r/bitcoinmarkets"> /r/BitcoinMarkets </a>
                 &nbsp;
@@ -211,7 +242,8 @@
                 <a href="https://buytrezor.com?a=fany@tutanota.com" onmousedown="this.href='https://buytrezor.com?a=fany@tutanota.com';" rel="nofollow" target="_blank">
                   Bitcoin Trezor </a>
                 &nbsp;
-
+                <a href="https://bestbitcoinexchange.co"> Best Bitcoin Exchange </a>
+                &nbsp;
               </small>
             </header>
 

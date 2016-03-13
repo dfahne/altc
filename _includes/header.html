@@ -1,20 +1,48 @@
 <div class="container">
   <div class="row">
-    <div class="one-third column maintitlebox">
-      <h1 class="maintitle"><a href="/">AltcoinTrading</a></h1>
-    </div>
-    <div class="two-thirds column">
-      <div class="ad_right">
-        <iframe data-aa='128868' src='https://ad.a-ads.com/128868?size=468x60' scrolling='no' style='width:468px; height:60px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+    <div class="twelve columns maintitlebox">
+      <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script src="/assets/lib/classie.js"></script>
+      <div id="f">
+        <small>{{ site.time | date: "%c" }}</small>
+        <small>Kontakt</small>
+        <small>Abo</small>
+
       </div>
+      <script async type="text/javascript">
+      $.get( "https://poloniex.com/public?command=returnTicker",
+      function( data ) {
+        $( "#f" ).append( '<small>ETH ' + data.BTC_ETH.last + '</small>' );
+        $( "#f" ).append( '<small>XMR ' + data.BTC_XMR.last + '</small>' );
+        $( "#f" ).append( '<small>MAID ' + data.BTC_MAID.last + '</small>' );
+        $( "#f" ).append( '<small>BTS ' + data.BTC_BTS.last + '</small>' );
+        $( "#f" ).append( '<small>DASH ' + data.BTC_DASH.last + '</small>' );
+//https://hitbtc.com/?ref_id=569e7b123be70
+        }, "json" );
+      </script>
+      <header class="classie "><h1 class="maintitle"><a href="/">AltcoinTrading</a></h1></header>
+      <script type="text/javascript">
+function init() {
+  window.addEventListener('scroll', function(e){
+      var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+          shrinkOn = 200,
+          header = document.querySelector("header");
+      if (distanceY > shrinkOn) {
+          classie.add(header,"smaller");
+      } else {
+          if (classie.has(header,"smaller")) {
+              classie.remove(header,"smaller");
+          }
+      }
+  });
+}
+window.onload = init();
+      </script>
     </div>
   </div>
-  <div class="row">
-    <nav>
-      <ul class="nav">
-        {% for tag in site.categories %}
-        <li><a href="/{{ tag[0] }}">{{ tag[0] | capitalize }}</a></li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </div>
+
+    <div class="twelve columns">
+      <header class="category nav"><small>
+        {% for tag in site.categories %}<a href="/{{ tag[0] }}">{{ tag[0] | capitalize }}</a>&nbsp;{% endfor %}&nbsp;|&nbsp;<a href="#">Kontakt</a>&nbsp;<a href="#">Abonnieren</a></small>
+      </header>
+    </div>

@@ -11,7 +11,7 @@
 <div class="row">
   <div class="twelve columns">
     <header class="category">
-      <small>Altcointrading.de | Thema «{{ tag[0] }}»</small>
+      <small>Altcointrading.de | {{ site.time | date: "%c" }} | Thema «{{ tag[0] }}»</small>
     </header>
   </div>
 </div>
@@ -31,15 +31,18 @@
             {% if page.update %}Update <b>{{ page.update | date: "%d.%m.%Y" }}</b>{% endif %}</p>
           </header>
 
-
             {{ content }}
-
+            <div class="text-center">
+              <iframe data-aa='128868' src='https://ad.a-ads.com/128868?size=468x60' scrolling='no' style='width:468px; height:60px; border:0px; padding:0;overflow:hidden' allowtransparency='true' frameborder='0'></iframe>
+            </div>
         </article>
       </div>
       <div class="one-third column">
         {% include sidebar-blog.html %}
       </div>
     </div>
+
+
 
     {% include footer.html %}
 
